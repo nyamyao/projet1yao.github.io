@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
         <header>
@@ -23,7 +23,7 @@
             <div class="clearfix"></div>
             <nav class="main-menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
                     <li><a href="./about-us.html">About</a></li>
                     <li><a href="#">Service</a>
                         <ul class="drop">
@@ -33,13 +33,12 @@
                         </ul>
                     </li>
                     <li><a href="./product.html">Products</a></li>
-                    <li><a href="./contact-us.html">Contact</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <section  class="cycle-slideshow banner">
-            <img src="./IMG_N5.jpg" alt="banner1">
-            <img src="./IMG_N1.jpg" alt="banner2">
+        <section  class="banner">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127064.98665084023!2d-0.3237057375!3d5.599364300000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9a796d2f6ee9%3A0x98409e1317836a30!2sGoogle%20Ghana!5e0!3m2!1sfr!2stg!4v1667464523745!5m2!1sfr!2stg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
         <section class="content-holder">
             <article class="content">
@@ -48,19 +47,38 @@
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis placeat ipsam,
                          earum cum reprehenderit veniam explicabo nihil doloremque fugiat quod repellat 
-                         repellendus. Expedita sapiente maiores, laborum quas delectus accusantium architecto?
                     </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis placeat ipsam,
-                         earum cum reprehenderit veniam explicabo nihil doloremque fugiat quod repellat 
-                         repellendus. Expedita sapiente maiores, laborum quas delectus accusantium architecto?
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis placeat ipsam,
-                          earum cum reprehenderit veniam explicabo nihil doloremque fugiat quod repellat 
-                          repellendus. Expedita sapiente maiores, laborum quas delectus accusantium architecto?
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis placeat ipsam,
-                           earum cum reprehenderit veniam explicabo nihil doloremque fugiat quod repellat 
-                           repellendus. Expedita sapiente maiores, laborum quas delectus accusantium architecto?
-                    </p>
+                    <div class="contact-form">
+                        <form>
+                            <table>
+                                <tr>
+                                    <td>Name: </td>
+                                    <td><input type="text" name="c_name" id=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Email: </td>
+                                    <td><input type="email" name="c_email" id=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Phone: </td>
+                                    <td><input type="tel" name="c_tel" id=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Subject: </td>
+                                    <td><input type="text" name="c_sub" id=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Message: </td>
+                                    <td><textarea cols="30" rows="5" name="c_mes"></textarea></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td></td>
+                                    <td><input type="submit" name="c_send" value="Send message"></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
                 </main>
             </article>
             <aside class="sidebar">
